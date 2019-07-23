@@ -1,7 +1,7 @@
 #include 'protheus.ch'
 #define BR Chr(13) + Chr(10)
 
-user Function AddAluno3()
+user Function Array3()
     Local aAluno := {}
 
     aAdd(aAluno,{"Amarelo", 7, 87, "garoto de programa"})
