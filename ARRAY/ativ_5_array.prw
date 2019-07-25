@@ -1,15 +1,31 @@
 #include 'protheus.ch'
 #define BR Chr(13) + Chr(10)
 
-user Function Array5()
+user Function Array_5()
     Local aAluno := {}
-
-    aAdd(aAluno,{"Amarelo", 7, 5,4})
-    aAdd(aAluno,{"Lucas", 0, 5, 10 })
-    aAdd(aAluno,{"Batata", 9, 10,3 })
-
-    alert("Lista" + aAluno[2,1] + BR +
-    "Nota" + cValToChar + aAluno[2,2])
+    Local nX
+    
+    aAdd(aAluno,{"Amarelo"})
+    aAdd(aAluno,{"Lucas"})
+    aAdd(aAluno,{"Batata"})
+    aAdd(aAluno,{"Ualace"})
+    aAdd(aAluno,{"Juliana"})
+    aAdd(aAluno,{"Porco"})
+    aAdd(aAluno,{"Erick"})
+    aAdd(aAluno,{"Igor"})
+    aAdd(aAluno,{"Lucas"})
+    aAdd(aAluno,{"Erick"})
+    
+    For nX:= 1 to 3
+        aDel(aAluno, nx)
+        
+    Next
+    
+    varinfo("apagado", aAluno)
+    
+    aSize(aAluno,7)
+    
+    varinfo("apagado", aAluno)
 
     
 Return
